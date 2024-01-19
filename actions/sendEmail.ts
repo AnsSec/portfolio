@@ -1,8 +1,10 @@
 "use server";
 
+import React from "react";
 import { Resend } from "resend";
-import { validateString } from "@/lib/utils";
-import * as nodeMailer from "nodemailer";
+import { validateString, getErrorMessage } from "@/lib/utils";
+import ContactFormEmail from "@/email/contact-form-email";
+
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export const sendEmail = async (formData: FormData) => {
@@ -21,27 +23,25 @@ export const sendEmail = async (formData: FormData) => {
     };
   }
 
+  let data;
   try {
-    const transporter = nodeMailer.createTransport({
-      host: process.env.SMTP_HOST,
-      port: Number(process.env.SMTP_PORT),
-      service: process.env.SMTP_SERVICE,
-      auth: {
-        user: process.env.SMTP_MAIL,
-        pass: process.env.SMTP_PASSWORD,
-      },
+    data = await resend.emails.send({
+      from: "Contact Form <onboarding@resend.dev>",
+      to: "anshulwdev@gmail.com",
+      subject: "Message from contact form",
+      reply_to: senderEmail,
+      react: React.createElement(ContactFormEmail, {
+        message: message,
+        senderEmail: senderEmail,
+      }),
     });
-  
-    const info = await transporter.sendMail({
-      from: process.env.SMTP_MAIL,
-      to: senderEmail,
-      subject:"Contact Form",
-      body: message,
-    });
-  
-    // console.log(info);
-    return info;
-  } catch (error: any) {
-    console.log(error.message);
+  } catch (error: unknown) {
+    return {
+      error: getErrorMessage(error),
+    };
   }
+
+  return {
+    data,
+  };
 };
