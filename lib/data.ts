@@ -3,6 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaWordpress } from "react-icons/fa";
 import cipherGuard from "@/public/cipherGuard.png";
 import portfolio from "@/public/portfolio.png";
+import StudyNotion from "@/public/StudyNotion.png"
 import { FaBloggerB } from "react-icons/fa";
 
 export const links = [
@@ -78,6 +79,14 @@ export const projectsData = [
     tags: ["React", "TypeScript", "Next.js", "Tailwind",],
     imageUrl: portfolio,
     liveUrl:"https://anshuldev.com",
+  },
+  {
+    title: "StudyNotion",
+    description:
+      "StudyNotion is a fully functional ed-tech platform that enables users to create, consume, and rate educational content.",
+    tags: ["ReactJS", "NodeJS", "MongoDB", "ExpressJS"],
+    imageUrl: StudyNotion,
+    liveUrl:"https://studynotion.anshuldev.com",
   },
 ] as const;
 
