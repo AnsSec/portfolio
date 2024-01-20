@@ -77,6 +77,7 @@ export const projectsData = [
       "I Build this Personal Portfolio to showcase my skills and interests to the world.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind",],
     imageUrl: portfolio,
+    liveUrl:"https://anshuldev.com",
   },
 ] as const;
 
@@ -89,6 +90,7 @@ export const skillsData = [
   "Node.js",
   "Git",
   "AWS",
+  "Linux",
   "Tailwind",
   "MongoDB",
   "Zustand",
