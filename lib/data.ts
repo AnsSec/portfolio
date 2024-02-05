@@ -1,6 +1,7 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaWordpress } from "react-icons/fa";
+import { SiTryhackme } from "react-icons/si";
 import cipherGuard from "@/public/cipherGuard.png";
 import portfolio from "@/public/portfolio.png";
 import StudyNotion from "@/public/StudyNotion.png"
@@ -60,6 +61,15 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "August 2023 - present",
   },
+{
+    title: "CTF Player",
+    location: "Remote",
+    description:
+      `I'm a TryHackMe CTF enthusiast, mastering cybersecurity challenges in penetration testing and exploit development. I thrive on uncovering vulnerabilities, contributing to a collaborative community, and constantly seeking new challenges.`,
+    icon: React.createElement(SiTryhackme),
+    date: "January 2024 - present",
+  },
+  
 
 ] as const;
 
