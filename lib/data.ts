@@ -59,7 +59,7 @@ export const experiencesData = [
       `Spearheaded the implementation of advanced features using JavaScript and React.js, enhancing the overall user experience.
       Contributed to a 15% reduction in backend response time by fine-tuning Express.js and MongoDB.`,
     icon: React.createElement(CgWorkAlt),
-    date: "August 2023 - present",
+    date: "August 2023 - January 2024",
   },
 {
     title: "CTF Player",
