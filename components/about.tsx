@@ -19,16 +19,14 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-      A <span className=" font-semibold">Full-Stack</span> developer and <span className=" font-semibold">cybersecurity enthusiast.</span> As a Software Engineer at Trunk Lord Technologies, I optimize user experiences through <span className=" font-semibold">JavaScript and React.js.</span> In my previous role as a <span className=" font-semibold">WordPress Developer,</span> I honed site-building and web development skills. Currently freelancing as a blogger at DevGlimpse, I share insights on various tech topics. I hold certifications in Web Development <span className=" font-semibold"> MERN STACK </span>and<span className=" font-semibold"> JavaScript.</span>  Educationally, I pursued a BTech in Information Technology. I am eager to connect and explore opportunities in the dynamic tech world!
-      </p>
+  A <span className="font-semibold">MERN developer</span> and <span className="font-semibold">cybersecurity enthusiast</span>. Currently freelancing as a blogger at DevGlimpse, I share tech insights. Certified in Web Development <span className="font-semibold">MERN STACK</span> and JavaScript, I hold a BTech in Information Technology. CTF player at <span className="font-semibold">TryHackMe</span>, actively seeking opportunities to contribute in the dynamic tech landscape.
+</p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about and exploring{" "}
-        <span className="font-medium">Cyber Security.</span>
-      </p>
+<p>
+  <span className="italic">When I'm not coding</span>, I enjoy playing video games and <span className="font-medium">learning new things</span>. Currently exploring <span className="font-medium">Cyber Security</span>.
+</p>
+
+
     </motion.section>
   );
 }
