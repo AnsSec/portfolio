@@ -45,14 +45,6 @@ export const experiencesData = [
     date: "March 2023 - August 2023",
   },
   {
-    title: "Freelance Blogger",
-    location: "Bilaspur, India",
-    description:
-      `Explore development insights and cybersecurity expertise on DevGlimpse. Discover the latest trends, coding tips, and security strategies at devglimpse.com.`,
-    icon: React.createElement(FaBloggerB),
-    date: "August 2023 - present",
-  },
-  {
     title: "Software Engineer",
     location: "Remote",
     description:
@@ -68,6 +60,14 @@ export const experiencesData = [
       `I'm a TryHackMe CTF enthusiast, mastering cybersecurity challenges in penetration testing and exploit development. I thrive on uncovering vulnerabilities, contributing to a collaborative community, and constantly seeking new challenges.`,
     icon: React.createElement(SiTryhackme),
     date: "January 2024 - present",
+  },
+  {
+    title: "Founder CleverPentester",
+    location: "Bilaspur, India",
+    description:
+      `Explore development insights and cybersecurity expertise on CleverPentester. Discover the latest trends, coding tips, and security strategies at CleverPentester.com.`,
+    icon: React.createElement(FaBloggerB),
+    date: "February 2024 - present",
   },
   
 
