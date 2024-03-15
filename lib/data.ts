@@ -59,7 +59,7 @@ export const experiencesData = [
     description:
       `I'm a TryHackMe CTF enthusiast, mastering cybersecurity challenges in penetration testing and exploit development. I thrive on uncovering vulnerabilities, contributing to a collaborative community, and constantly seeking new challenges.`,
     icon: React.createElement(SiTryhackme),
-    date: "January 2024 - present",
+    date: "October 2023 - present",
   },
   {
     title: "Founder CleverPentester",
