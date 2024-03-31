@@ -80,7 +80,7 @@ export const projectsData = [
       "Cipher Guard is a cutting-edge security application designed for robust data protection. Built on Mern , this project offers a modern and efficient platform to secure digital credentials.",
     tags: ["React", "MongoDB", "Tailwind", "Express"],
     imageUrl: cipherGuard,
-    liveUrl:"https://cipherguard.devglimpse.com",
+    liveUrl:"https://heroic-entremet-634d21.netlify.app",
   },
   {
     title: "Personal Portfolio",
@@ -88,7 +88,7 @@ export const projectsData = [
       "I Build this Personal Portfolio to showcase my skills and interests to the world.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind",],
     imageUrl: portfolio,
-    liveUrl:"https://anshuldev.com",
+    liveUrl:"https://anshulvishwakarma.netlify.app",
   },
   {
     title: "StudyNotion",
@@ -96,7 +96,7 @@ export const projectsData = [
       "StudyNotion is a fully functional ed-tech platform that enables users to create, consume, and rate educational content.",
     tags: ["ReactJS", "NodeJS", "MongoDB", "ExpressJS"],
     imageUrl: StudyNotion,
-    liveUrl:"https://studynotion.anshuldev.com",
+    liveUrl:"https://steady-yeot-09103c.netlify.app",
   },
 ] as const;
 
