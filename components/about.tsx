@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-  A <span className="font-semibold">MERN developer</span> and <span className="font-semibold">cybersecurity enthusiast</span>. Currently freelancing as a blogger at DevGlimpse, I share tech insights. Certified in Web Development <span className="font-semibold">MERN STACK</span> and JavaScript, I hold a BTech in Information Technology. CTF player at <span className="font-semibold">TryHackMe</span>, actively seeking opportunities to contribute in the dynamic tech landscape.
+  A <span className="font-semibold">MERN developer</span> and <span className="font-semibold">cybersecurity enthusiast</span>. Currently freelancing as a blogger at cleverpentester.com, I share tech insights. Certified in Web Development <span className="font-semibold">MERN STACK</span> and JavaScript, I hold a BTech in Information Technology. CTF player at <span className="font-semibold">TryHackMe</span>, actively seeking opportunities to contribute in the dynamic tech landscape.
 </p>
 
 <p>
