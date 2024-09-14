@@ -1,11 +1,9 @@
 -import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaWordpress } from "react-icons/fa";
 import { SiTryhackme } from "react-icons/si";
 import cipherGuard from "@/public/cipherGuard.png";
 import portfolio from "@/public/portfolio.png";
 import StudyNotion from "@/public/StudyNotion.png"
-import { FaBloggerB } from "react-icons/fa";
 
 export const links = [
   {
@@ -36,38 +34,21 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Wordpress Developer",
+    title: "Software Engineer",
     location: "Remote",
     description:
       `During my internship as a WordPress, I gained valuable experience in site building, Ahrefs, web scraping, and
       WordPress development. Working remotely, I actively contributed to the team's objectives and enhanced my skills in web development.`,
     icon: React.createElement(FaWordpress),
-    date: "March 2023 - August 2023",
+    date: "August 2023 - December 2023",
   },
   {
-    title: "Software Engineer",
-    location: "Remote",
-    description:
-      `Spearheaded the implementation of advanced features using JavaScript and React.js, enhancing the overall user experience.
-      Contributed to a 15% reduction in backend response time by fine-tuning Express.js and MongoDB.`,
-    icon: React.createElement(CgWorkAlt),
-    date: "August 2023 - January 2024",
-  },
-{
     title: "CTF Player",
     location: "Remote",
     description:
       `I'm a TryHackMe CTF enthusiast, mastering cybersecurity challenges in penetration testing and exploit development. I thrive on uncovering vulnerabilities, contributing to a collaborative community, and constantly seeking new challenges.`,
     icon: React.createElement(SiTryhackme),
-    date: "October 2023 - present",
-  },
-  {
-    title: "Founder CleverPentester",
-    location: "Bilaspur, India",
-    description:
-      `Explore development insights and cybersecurity expertise on CleverPentester. Discover the latest trends, coding tips, and security strategies at CleverPentester.com.`,
-    icon: React.createElement(FaBloggerB),
-    date: "February 2024 - present",
+    date: "October 2023 - July 2023",
   },
   
 
