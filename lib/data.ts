@@ -1,4 +1,4 @@
-import React from "react";
+-import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaWordpress } from "react-icons/fa";
 import { SiTryhackme } from "react-icons/si";
@@ -80,7 +80,7 @@ export const projectsData = [
       "Cipher Guard is a cutting-edge security application designed for robust data protection. Built on Mern , this project offers a modern and efficient platform to secure digital credentials.",
     tags: ["React", "MongoDB", "Tailwind", "Express"],
     imageUrl: cipherGuard,
-    liveUrl:"https://heroic-entremet-634d21.netlify.app",
+    liveUrl:"https://cipher-guard.netlify.app",
   },
   {
     title: "Personal Portfolio",
@@ -88,7 +88,7 @@ export const projectsData = [
       "I Build this Personal Portfolio to showcase my skills and interests to the world.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind",],
     imageUrl: portfolio,
-    liveUrl:"https://anshulvishwakarma.netlify.app",
+    liveUrl:"https://anssec.netlify.app",
   },
   {
     title: "StudyNotion",
@@ -101,18 +101,5 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "AWS",
-  "Linux",
-  "Tailwind",
-  "MongoDB",
-  "Zustand",
-  "Express",
-  "Framer Motion",
+  "Javascript", "Python", "Bash", "HTML", "CSS", "Express.js", "Next.js", "React.js", "WordPress", "NoSQL", "SQL", "Linux", "Windows", "Penetration Testing", "VAPT", "Exploitation", "Privilege Escalation", "Vulnerability Scanning", "Tunneling", "Kali Linux", "Nmap", "OWASP Top 10", "Wireshark", "Burpsuite", "Metasploit", "Nikto", "Hashcat", "FFUF",
 ] as const;
