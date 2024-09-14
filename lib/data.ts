@@ -1,4 +1,4 @@
--import React from "react";
+import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { SiTryhackme } from "react-icons/si";
 import cipherGuard from "@/public/cipherGuard.png";
