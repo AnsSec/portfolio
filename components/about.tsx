@@ -19,14 +19,10 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-  A <span className="font-semibold">MERN developer</span> and <span className="font-semibold">cybersecurity enthusiast</span>. Currently freelancing as a blogger at cleverpentester.com, I share tech insights. Certified in Web Development <span className="font-semibold">MERN STACK</span> and JavaScript, I hold a BTech in Information Technology. CTF player at <span className="font-semibold">TryHackMe</span>, actively seeking opportunities to contribute in the dynamic tech landscape.
+  A dedicated <span className="font-semibold">Penetration Tester</span> and <span className="font-semibold">Certified Ethical Hacker (CEH)</span> with a strong foundation in <span className="font-semibold">Vulnerability Assessment and Penetration Testing (VAPT)</span>. I actively have sharpened my skills through Capture The Flag (CTF) challenges on <span className="font-semibold">Hack The Box</span> and <span className="font-semibold">TryHackMe</span>.
+
 </p>
-
-<p>
-  <span className="italic">When I'm not coding</span>, I enjoy playing video games and <span className="font-medium">learning new things</span>. Currently exploring <span className="font-medium">Cyber Security</span>.
-</p>
-
-
+      
     </motion.section>
   );
 }
