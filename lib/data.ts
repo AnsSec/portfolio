@@ -34,12 +34,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Engineer",
+    title: "Software Engineer Intern",
     location: "Remote",
     description:
-      `During my internship as a WordPress, I gained valuable experience in site building, Ahrefs, web scraping, and
-      WordPress development. Working remotely, I actively contributed to the team's objectives and enhanced my skills in web development.`,
-    icon: React.createElement(FaWordpress),
+      `I designed and developed Secure APIs in Express.js, incorporating rigorous input validation and robust
+error handling to ensure reliability and security.`,
+    icon: React.createElement(CgWorkAlt),
     date: "August 2023 - December 2023",
   },
   {
