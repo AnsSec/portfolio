@@ -1,6 +1,5 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { SiTryhackme } from "react-icons/si";
 import cipherGuard from "@/public/cipherGuard.png";
 import portfolio from "@/public/portfolio.png";
 import StudyNotion from "@/public/StudyNotion.png"
@@ -43,12 +42,12 @@ error handling to ensure reliability and security.`,
     date: "August 2023 - December 2023",
   },
   {
-    title: "CTF Player",
+    title: "Associate Cyber Security Consultant",
     location: "Remote",
     description:
-      `I'm a TryHackMe CTF enthusiast, mastering cybersecurity challenges in penetration testing and exploit development. I thrive on uncovering vulnerabilities, contributing to a collaborative community, and constantly seeking new challenges.`,
-    icon: React.createElement(SiTryhackme),
-    date: "October 2023 - July 2023",
+      `I worked as an Associate Cyber Security Consultant at Security Brigade Infosec`,
+    icon: RReact.createElement(CgWorkAlt),
+    date: "October 2024 - Present",
   },
   
 
